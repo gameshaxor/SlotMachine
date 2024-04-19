@@ -19,12 +19,28 @@
 }
 
 body {
-  background: black !important;
+  background: #24244d !important;
 }
 
 .gold {
-  color: gold !important;
+  color: #24244d !important;
 }
+
+.samuelpasaribu {
+  color: #a67eff !important;
+  text-shadow: 0 0 5px #6c35fd, 0 0 10px #6c35fd, 0 0 15px #6c35fd; /* efek shadow */
+  font-family: 'Courier New', monospace; /* menggunakan font monospace seperti Courier New */
+  animation: glitch 1s infinite; /* efek glitch animasi */
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  25% { transform: translate(-2px, 2px); }
+  50% { transform: translate(2px, -2px); }
+  75% { transform: translate(-2px, 2px); }
+  100% { transform: translate(0); }
+}
+
 .green {
   color: green;
 }
