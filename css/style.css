@@ -27,7 +27,8 @@ body {
 }
 
 .samuelpasaribu {
-  color: #a67eff !important;
+  color: #fff !important;
+  font-weight: bold;
   text-shadow: 0 0 5px #6c35fd, 0 0 10px #6c35fd, 0 0 15px #6c35fd; /* efek shadow */
   font-family: 'Courier New', monospace; /* menggunakan font monospace seperti Courier New */
 }
